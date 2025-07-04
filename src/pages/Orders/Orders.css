@@ -1,0 +1,32 @@
+.order-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-left{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.multi-fields{
+    display: flex;
+    gap: 8px;
+}
+.form-left input{
+    height: 36px;
+    padding: 8px;
+}
+.form-left input:hover{
+    border: 1px solid tomato;
+}
+@media (max-width : 750px){
+    .order-form{
+        flex-direction: column;
+    }
+
+}
+@media (max-width:450px){
+    .multi-fields{
+        flex-direction: column;
+    }
+}

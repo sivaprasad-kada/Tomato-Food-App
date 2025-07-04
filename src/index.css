@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap');
+*{
+  font-family:Outfit ;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior:smooth;
+
+}
+body{
+    min-height: 100vh;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+@keyframes FadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100;
+  }
+}

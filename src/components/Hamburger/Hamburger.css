@@ -1,0 +1,47 @@
+/* Sidebar base style */
+.ham-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 200px;      /* Adjust width as you like */
+  background: tomato;  /* Dark background */
+  color: #fff;
+  transform: translateX(-100%);  /* Hide it off-screen by default */
+  transition: transform 0.5s ease-in;  /* Smooth slide effect */
+  z-index: 1000;    /* On top of other content */
+  padding-top: 60px; /* Space for navbar if needed */
+}
+
+/* When open, slide it in */
+.ham-menu.open {
+  transform: translateX(0);
+}
+
+/* Optional: style your list */
+.ham-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ham-menu li {
+  padding: 15px 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.ham-menu li:hover {
+  background: white;
+  color: black;
+}
+.toggle-icon {
+  position: fixed;   /* Or absolute if inside navbar */
+  top: 20px;         /* Adjust as needed */
+  right: 20px;       /* Adjust as needed */
+  z-index: 2000;     /* Higher than sidebar’s 1000 */
+  font-size: 30px;
+  cursor: pointer;
+  color: black; /* or white, depending on your design */
+}
+

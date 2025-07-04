@@ -1,0 +1,91 @@
+.cart{
+    margin: 48px;
+}
+.cart-items-title{
+    display: grid;
+    grid-template-columns:1fr 1.5fr 1fr 1fr 1fr 0.5fr ;
+    align-items: center;
+    color:grey;
+    font-size: max(1vw,12px);
+}
+.cart-items-map{
+   margin: 10px 0px; 
+   color: black;
+}
+.cart-items-title img{
+    width: 50px;
+}
+.cart-remove{
+    cursor: pointer;
+}
+.cart hr{
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.cart-total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    align-items:center;
+    color: gray;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+.del-fee{
+    display: flex;
+    justify-content: space-between;
+}
+.totals{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.total{
+    width: 224px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.total h2{
+    margin-bottom: 10px;
+    color: black;
+}
+.total button{
+    height: 36px;
+    border: none;
+    background-color: tomato;
+    border-radius: 4px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.promo-input input{
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:transparent;
+    padding: 4px;
+}
+.promo-input button{
+    height: 34px;
+    width: 54px;
+    background-color: black;
+    color: white;
+     border-radius: 4px;
+}
+@media (max-width : 750px) {
+    .cart-total{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 36px;
+        align-items: center;
+        justify-content: center;
+    }
+    .promocode p{
+        font-size: 14px;
+    }
+}
+
+

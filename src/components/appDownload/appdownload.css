@@ -1,0 +1,29 @@
+.app-download-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+}
+.app-download-container h2{
+    font-size: max(3.5vw,34px);
+    font-weight: 500;
+}
+.app-download-img{
+    display: flex;
+    gap: 18px;
+}
+.app-download-img img{
+    cursor: pointer;
+}
+.app-download-img img:hover{
+    transform: scale(1.05);
+}
+@media (max-width : 750px) {
+    .app-download-container h2{
+        font-size: 20px;
+    }
+    .app-download-img img{
+        width: 144px;
+    }
+}

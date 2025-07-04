@@ -1,0 +1,76 @@
+.navbar{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center; 
+}
+.navelements{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: -20px;
+}
+.logo{
+  width: 200px;
+}
+.search-icon{
+ width: 24px;
+ height: 24px;
+}
+/* .card{
+width: 50px;
+ height: 50px;
+} */
+.sigin{
+   padding: 10px;
+   height: 36px;
+   border-radius: 16px;
+   cursor: pointer;
+}
+.sigin:hover{
+   border: 2px orange solid;
+}
+a{
+    color: gray;
+}
+a:hover{
+    color: orange;
+    cursor: pointer;
+}
+a.active {
+    padding-bottom: 2px;
+    border-bottom: 2px orange solid;
+}
+.hamburger-menu{
+   display: none;
+}
+
+@media (max-width : 750px) {
+    .navelements{
+        display: none;
+    }
+    .logo{
+        width: 100px;
+        margin-left: 24px;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sigin{
+   padding: 10px;
+   height: 36px;
+   border-radius: 12px;
+   cursor: pointer;
+   width: 64px;
+}
+}

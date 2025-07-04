@@ -1,0 +1,114 @@
+/* .login-container{
+ position: absolute;
+ z-index: 1;
+ width: 100%;
+ height: 100%;
+ background-color: #00000090;
+ display: grid; /* why we use grid
+}
+.popup-title{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between
+}
+.popup-title img{
+    width: 24px;
+    height: 24px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.login-form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+.popup-condition{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.popup-condition button{
+    width: 300px;
+    height: 40px;
+    background-color: tomato;
+    border-radius: 10px;
+    border: 2px tomato solid;
+    cursor: pointer;
+}
+.form-container{
+    place-self: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+ .login-container{
+    z-index: 1;
+    position: absolute;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+}
+.login-popup-container{
+    place-self: center;
+    width: max(23vw,330px);
+    height: max(23vw,330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: FadeIn 0.5s;
+}
+.popup-title{
+    display: flex;
+    justify-content: space-between;
+}
+.popup-title img{
+    width: 16px;
+    cursor: pointer;
+}
+.popup-title h3{
+    color: black;
+}
+.popup-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.popup-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    height: 24px;
+}
+.login-button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+}
+span{
+    color: tomato;
+    cursor: pointer;
+}
+.popup-condition{
+    display: flex;
+    gap: 4px;
+    font-size: 12px;
+}
+.page-change{
+  margin-bottom: 10px;
+}
