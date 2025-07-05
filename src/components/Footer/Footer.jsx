@@ -30,8 +30,10 @@ export const Footer = () => {
                 <p>+91-9885226587</p>
                 <p>contact@sivaprasadKada</p>
             </div>
+         
         </div>
-       
+        <a href='https://sivaprasad-kada-protfolio.netlify.app/' target='_blank'>
+          <p className='owner-tag'>Made With ❤️ By K.SivaPrasad</p></a>
         </>
     )
 }

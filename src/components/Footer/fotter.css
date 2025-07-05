@@ -38,6 +38,13 @@ hr{
     background-color: #e2e2e2;
     border: none;
 }
+.owner-tag{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
 @media(max-width:750px){
         .footer-para{
     max-width: 200px;
