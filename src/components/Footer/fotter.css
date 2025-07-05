@@ -69,4 +69,8 @@ hr{
 .footer-center ul{
    list-style-type: none;
 }
+.owner-tag{
+    font-size: 16px;
+    font-weight: bolder;
+}
 }
